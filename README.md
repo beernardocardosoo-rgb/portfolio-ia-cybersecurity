@@ -139,7 +139,7 @@ Com foco em soluções **híbridas entre IA e Segurança**.
 
 <div align="center">
 
-**[📧 Email](mailto:beernardocardosoo@gmail.com)** • **[💼 LinkedIn](https://www.linkedin.com/in/bernardo-cardoso-31384734b/)** • **[💻 GitHub](https://github.com/beernardocardosoo-rgb)**
+**[📧 Email](beernardocardosoo@gmail.com)** • **[💼 LinkedIn](https://www.linkedin.com/in/bernardo-cardoso-31384734b/)** • **[💻 GitHub](https://github.com/beernardocardosoo-rgb)**
 
 </div>
 
