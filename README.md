@@ -85,12 +85,17 @@ div>
 
 <div align="center">
 
-| Projeto | Status | Descrição |
-|:---|:---:|:---|
-| **01 - Análise de Logs Linux** | 🟢 Ativo | [Análise de logs + gráficos + detecção básica](https://github.com/beernardocardosoo-rgb/portfolio-ia-cybersecurity/tree/main/01-analise-logs-linux) |
-| **02 - Detecção de Anomalias (IA)** | 🟢 Ativo | Machine Learning para detectar padrões suspeitos |
-| **03 - Força Bruta Detection** | 🟢 Ativo | IA para identificar tentativas de ataque em tempo real |
-| **04 - Dashboard de Segurança** | 🟡 Planejado | Dashboard interativo para análise de ameaças |
+🟢 01 – Análise de Logs Linux
+Análise automatizada de logs do sistema, extração de eventos relevantes, visualizações e detecção preliminar de comportamentos suspeitos.
+
+🟢 02 – Detecção de Anomalias com IA
+Modelo de Machine Learning (Isolation Forest) para identificar padrões incomuns em datasets simulados e reais, com foco em comportamento anômalo.
+
+🟢 03 – Força Bruta Detection (IA)
+Sistema completo para detecção de ataques de força bruta, incluindo geração de dataset, pré‑processamento, treinamento de modelo, alertas e relatórios.
+
+🟡 04 – Dashboard de Segurança (Planejado)
+Dashboard interativo para visualização de ameaças, métricas e indicadores de segurança em tempo real.
 
 </div>
 
