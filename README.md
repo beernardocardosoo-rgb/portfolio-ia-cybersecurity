@@ -85,17 +85,44 @@ div>
 
 <div align="center">
 
-🟢 01 – Análise de Logs Linux
-Análise automatizada de logs do sistema, extração de eventos relevantes, visualizações e detecção preliminar de comportamentos suspeitos.
+---
 
-🟢 02 – Detecção de Anomalias com IA
-Modelo de Machine Learning (Isolation Forest) para identificar padrões incomuns em datasets simulados e reais, com foco em comportamento anômalo.
+### 🟢 Projetos Ativos
 
-🟢 03 – Força Bruta Detection (IA)
-Sistema completo para detecção de ataques de força bruta, incluindo geração de dataset, pré‑processamento, treinamento de modelo, alertas e relatórios.
+#### 01 - Análise de Logs Linux
+**Status:** 🟢 Ativo  
+**Descrição:** Análise automatizada de logs do sistema Linux (`/var/log`), detecção básica de anomalias e visualizações com gráficos.  
+**Tecnologias:** Python, Pandas, Matplotlib  
+**[Ver projeto →](./01-analise-logs-linux)**
 
-🟡 04 – Dashboard de Segurança (Planejado)
-Dashboard interativo para visualização de ameaças, métricas e indicadores de segurança em tempo real.
+---
+
+#### 02 - Detecção de Anomalias (IA)
+**Status:** 🟢 Ativo  
+**Descrição:** Pipeline completo de Machine Learning usando Isolation Forest para detectar comportamento suspeito em datasets reais e simulados.  
+**Tecnologias:** Python, Scikit-learn, Pandas, Seaborn  
+**[Ver projeto →](./02-deteccao-anomalias)**
+
+---
+
+#### 03 - Força Bruta Detection
+**Status:** 🟢 Ativo  
+**Descrição:** Sistema completo de IA para identificar tentativas de ataque de força bruta (rápido + stealth), com geração de dataset, treinamento de modelo e emissão de alertas automáticos.  
+**Tecnologias:** Python, Scikit-learn, Matplotlib, Joblib  
+**[Ver projeto →](./03-forca-bruta-detection)**
+
+---
+
+### 🟡 Projetos Planejados
+
+#### 04 - Dashboard de Segurança
+**Status:** 🟡 Em desenvolvimento  
+**Descrição:** Dashboard web interativo para monitoramento de ameaças em tempo real, com gráficos dinâmicos, métricas de segurança e indicadores visuais.  
+**Tecnologias:** Python, Flask/Streamlit, Plotly, Bootstrap  
+**[Ver projeto →](./04-dashboard-seguranca)**
+
+---
+
 
 </div>
 
