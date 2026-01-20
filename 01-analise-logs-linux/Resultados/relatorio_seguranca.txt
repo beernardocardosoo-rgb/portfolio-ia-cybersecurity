@@ -1,0 +1,57 @@
+
+======================================================================
+RELATÓRIO DE ANÁLISE DE LOGS DE SEGURANÇA
+======================================================================
+
+DATA DA ANÁLISE: 19/01/2026 11:52:41
+
+======================================================================
+RESUMO EXECUTIVO
+======================================================================
+
+Total de eventos analisados: 56
+Logins bem-sucedidos: 13 (23.2%)
+Falhas de login: 43 (76.8%)
+
+======================================================================
+TOP 10 IPs COM FALHAS DE LOGIN (SUSPEITOS)
+======================================================================
+
+ 1. 203.0.113.45         -  15 tentativas
+ 2. 203.0.113.67         -  12 tentativas
+ 3. 198.51.100.23        -  10 tentativas
+ 4. 198.51.100.45        -   6 tentativas
+
+======================================================================
+TOP 10 USUÁRIOS MAIS ATACADOS
+======================================================================
+
+ 1. invalid              -  43 tentativas
+
+======================================================================
+RECOMENDAÇÕES DE SEGURANÇA
+======================================================================
+
+1. BLOQUEIO DE IPs SUSPEITOS:
+   Os IPs abaixo tiveram múltiplas tentativas falhadas e devem ser
+   investigados e potencialmente bloqueados:
+   - 203.0.113.45 (15 tentativas)
+   - 203.0.113.67 (12 tentativas)
+   - 198.51.100.23 (10 tentativas)
+   - 198.51.100.45 (6 tentativas)
+
+2. PROTEÇÃO DE CONTAS:
+   Os seguintes usuários foram alvo de ataques de força bruta:
+   - invalid (43 tentativas)
+
+3. AÇÕES RECOMENDADAS:
+   ✓ Implementar rate limiting (limite de tentativas)
+   ✓ Usar autenticação de dois fatores (2FA)
+   ✓ Mudar portas padrão do SSH (porta 22)
+   ✓ Desabilitar login de root via SSH
+   ✓ Monitorar continuamente os logs
+   ✓ Bloquear IPs com múltiplas falhas
+
+======================================================================
+FIM DO RELATÓRIO
+======================================================================

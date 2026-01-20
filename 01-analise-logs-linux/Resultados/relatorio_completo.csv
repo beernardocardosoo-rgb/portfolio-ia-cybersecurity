@@ -1,0 +1,57 @@
+data,hora,ip,usuario,evento,status
+Jan 15,08:23:45,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,08:23:47,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,08:23:50,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,08:24:12,192.168.1.100,bernardo,Login Bem-sucedido,SUCESSO
+Jan 15,08:45:33,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,08:45:36,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,09:12:18,192.168.1.105,admin,Login Bem-sucedido,SUCESSO
+Jan 15,09:34:22,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,09:34:25,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,09:34:28,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,10:05:44,192.168.1.110,suporte,Login Bem-sucedido,SUCESSO
+Jan 15,10:23:11,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,10:23:14,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,10:56:33,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,10:56:36,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,10:56:39,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,11:15:22,192.168.1.115,ti,Login Bem-sucedido,SUCESSO
+Jan 15,11:45:18,198.51.100.45,invalid,Falha de Login,FALHA
+Jan 15,11:45:21,198.51.100.45,invalid,Falha de Login,FALHA
+Jan 15,12:03:55,192.168.1.100,bernardo,Login Bem-sucedido,SUCESSO
+Jan 15,12:34:44,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,12:34:47,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,12:34:50,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,13:12:33,192.168.1.105,admin,Login Bem-sucedido,SUCESSO
+Jan 15,13:45:22,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,13:45:25,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,14:23:11,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,14:23:14,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,14:23:17,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,14:56:44,192.168.1.110,suporte,Login Bem-sucedido,SUCESSO
+Jan 15,15:34:22,198.51.100.45,invalid,Falha de Login,FALHA
+Jan 15,15:34:25,198.51.100.45,invalid,Falha de Login,FALHA
+Jan 15,16:12:55,192.168.1.115,ti,Login Bem-sucedido,SUCESSO
+Jan 15,16:45:33,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,16:45:36,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,16:45:39,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,17:23:18,192.168.1.100,bernardo,Login Bem-sucedido,SUCESSO
+Jan 15,17:56:44,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,17:56:47,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,18:34:11,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,18:34:14,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,18:34:17,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,19:12:33,192.168.1.105,admin,Login Bem-sucedido,SUCESSO
+Jan 15,19:45:22,198.51.100.45,invalid,Falha de Login,FALHA
+Jan 15,19:45:25,198.51.100.45,invalid,Falha de Login,FALHA
+Jan 15,20:23:44,192.168.1.110,suporte,Login Bem-sucedido,SUCESSO
+Jan 15,20:56:11,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,20:56:14,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,20:56:17,203.0.113.45,invalid,Falha de Login,FALHA
+Jan 15,21:34:33,192.168.1.115,ti,Login Bem-sucedido,SUCESSO
+Jan 15,22:12:18,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,22:12:21,198.51.100.23,invalid,Falha de Login,FALHA
+Jan 15,22:45:55,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,22:45:58,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,22:46:01,203.0.113.67,invalid,Falha de Login,FALHA
+Jan 15,23:23:44,192.168.1.100,bernardo,Login Bem-sucedido,SUCESSO

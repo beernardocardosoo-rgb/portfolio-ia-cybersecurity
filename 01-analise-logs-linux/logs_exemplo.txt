@@ -1,0 +1,56 @@
+Jan 15 08:23:45 servidor-web sshd[12453]: Failed password for invalid user admin from 203.0.113.45 port 54321 ssh2
+Jan 15 08:23:47 servidor-web sshd[12453]: Failed password for invalid user admin from 203.0.113.45 port 54321 ssh2
+Jan 15 08:23:50 servidor-web sshd[12453]: Failed password for invalid user root from 203.0.113.45 port 54321 ssh2
+Jan 15 08:24:12 servidor-web sshd[12467]: Accepted password for bernardo from 192.168.1.100 port 45678 ssh2
+Jan 15 08:45:33 servidor-web sshd[12589]: Failed password for invalid user test from 198.51.100.23 port 33445 ssh2
+Jan 15 08:45:36 servidor-web sshd[12589]: Failed password for invalid user test from 198.51.100.23 port 33445 ssh2
+Jan 15 09:12:18 servidor-web sshd[12734]: Accepted password for admin from 192.168.1.105 port 56789 ssh2
+Jan 15 09:34:22 servidor-web sshd[12856]: Failed password for invalid user oracle from 203.0.113.45 port 54322 ssh2
+Jan 15 09:34:25 servidor-web sshd[12856]: Failed password for invalid user oracle from 203.0.113.45 port 54322 ssh2
+Jan 15 09:34:28 servidor-web sshd[12856]: Failed password for invalid user postgres from 203.0.113.45 port 54322 ssh2
+Jan 15 10:05:44 servidor-web sshd[12978]: Accepted password for suporte from 192.168.1.110 port 47890 ssh2
+Jan 15 10:23:11 servidor-web sshd[13045]: Failed password for invalid user guest from 198.51.100.23 port 33446 ssh2
+Jan 15 10:23:14 servidor-web sshd[13045]: Failed password for invalid user guest from 198.51.100.23 port 33446 ssh2
+Jan 15 10:56:33 servidor-web sshd[13189]: Failed password for invalid user user from 203.0.113.67 port 54323 ssh2
+Jan 15 10:56:36 servidor-web sshd[13189]: Failed password for invalid user user from 203.0.113.67 port 54323 ssh2
+Jan 15 10:56:39 servidor-web sshd[13189]: Failed password for invalid user user from 203.0.113.67 port 54323 ssh2
+Jan 15 11:15:22 servidor-web sshd[13267]: Accepted password for ti from 192.168.1.115 port 48901 ssh2
+Jan 15 11:45:18 servidor-web sshd[13389]: Failed password for invalid user backup from 198.51.100.45 port 33447 ssh2
+Jan 15 11:45:21 servidor-web sshd[13389]: Failed password for invalid user backup from 198.51.100.45 port 33447 ssh2
+Jan 15 12:03:55 servidor-web sshd[13467]: Accepted password for bernardo from 192.168.1.100 port 49012 ssh2
+Jan 15 12:34:44 servidor-web sshd[13589]: Failed password for invalid user mysql from 203.0.113.45 port 54324 ssh2
+Jan 15 12:34:47 servidor-web sshd[13589]: Failed password for invalid user mysql from 203.0.113.45 port 54324 ssh2
+Jan 15 12:34:50 servidor-web sshd[13589]: Failed password for invalid user ftp from 203.0.113.45 port 54324 ssh2
+Jan 15 13:12:33 servidor-web sshd[13712]: Accepted password for admin from 192.168.1.105 port 50123 ssh2
+Jan 15 13:45:22 servidor-web sshd[13834]: Failed password for invalid user jenkins from 198.51.100.23 port 33448 ssh2
+Jan 15 13:45:25 servidor-web sshd[13834]: Failed password for invalid user jenkins from 198.51.100.23 port 33448 ssh2
+Jan 15 14:23:11 servidor-web sshd[13956]: Failed password for invalid user webmaster from 203.0.113.67 port 54325 ssh2
+Jan 15 14:23:14 servidor-web sshd[13956]: Failed password for invalid user webmaster from 203.0.113.67 port 54325 ssh2
+Jan 15 14:23:17 servidor-web sshd[13956]: Failed password for invalid user webmaster from 203.0.113.67 port 54325 ssh2
+Jan 15 14:56:44 servidor-web sshd[14078]: Accepted password for suporte from 192.168.1.110 port 51234 ssh2
+Jan 15 15:34:22 servidor-web sshd[14189]: Failed password for invalid user support from 198.51.100.45 port 33449 ssh2
+Jan 15 15:34:25 servidor-web sshd[14189]: Failed password for invalid user support from 198.51.100.45 port 33449 ssh2
+Jan 15 16:12:55 servidor-web sshd[14312]: Accepted password for ti from 192.168.1.115 port 52345 ssh2
+Jan 15 16:45:33 servidor-web sshd[14434]: Failed password for invalid user tomcat from 203.0.113.45 port 54326 ssh2
+Jan 15 16:45:36 servidor-web sshd[14434]: Failed password for invalid user tomcat from 203.0.113.45 port 54326 ssh2
+Jan 15 16:45:39 servidor-web sshd[14434]: Failed password for invalid user apache from 203.0.113.45 port 54326 ssh2
+Jan 15 17:23:18 servidor-web sshd[14567]: Accepted password for bernardo from 192.168.1.100 port 53456 ssh2
+Jan 15 17:56:44 servidor-web sshd[14689]: Failed password for invalid user deploy from 198.51.100.23 port 33450 ssh2
+Jan 15 17:56:47 servidor-web sshd[14689]: Failed password for invalid user deploy from 198.51.100.23 port 33450 ssh2
+Jan 15 18:34:11 servidor-web sshd[14812]: Failed password for invalid user docker from 203.0.113.67 port 54327 ssh2
+Jan 15 18:34:14 servidor-web sshd[14812]: Failed password for invalid user docker from 203.0.113.67 port 54327 ssh2
+Jan 15 18:34:17 servidor-web sshd[14812]: Failed password for invalid user docker from 203.0.113.67 port 54327 ssh2
+Jan 15 19:12:33 servidor-web sshd[14934]: Accepted password for admin from 192.168.1.105 port 54567 ssh2
+Jan 15 19:45:22 servidor-web sshd[15056]: Failed password for invalid user git from 198.51.100.45 port 33451 ssh2
+Jan 15 19:45:25 servidor-web sshd[15056]: Failed password for invalid user git from 198.51.100.45 port 33451 ssh2
+Jan 15 20:23:44 servidor-web sshd[15178]: Accepted password for suporte from 192.168.1.110 port 55678 ssh2
+Jan 15 20:56:11 servidor-web sshd[15289]: Failed password for invalid user nagios from 203.0.113.45 port 54328 ssh2
+Jan 15 20:56:14 servidor-web sshd[15289]: Failed password for invalid user nagios from 203.0.113.45 port 54328 ssh2
+Jan 15 20:56:17 servidor-web sshd[15289]: Failed password for invalid user zabbix from 203.0.113.45 port 54328 ssh2
+Jan 15 21:34:33 servidor-web sshd[15412]: Accepted password for ti from 192.168.1.115 port 56789 ssh2
+Jan 15 22:12:18 servidor-web sshd[15534]: Failed password for invalid user ansible from 198.51.100.23 port 33452 ssh2
+Jan 15 22:12:21 servidor-web sshd[15534]: Failed password for invalid user ansible from 198.51.100.23 port 33452 ssh2
+Jan 15 22:45:55 servidor-web sshd[15656]: Failed password for invalid user puppet from 203.0.113.67 port 54329 ssh2
+Jan 15 22:45:58 servidor-web sshd[15656]: Failed password for invalid user puppet from 203.0.113.67 port 54329 ssh2
+Jan 15 22:46:01 servidor-web sshd[15656]: Failed password for invalid user puppet from 203.0.113.67 port 54329 ssh2
+Jan 15 23:23:44 servidor-web sshd[15778]: Accepted password for bernardo from 192.168.1.100 port 57890 ssh2
