@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dados e modelos
+dados/*.csv
+modelos/*.pkl
+modelos/*.joblib
+
+# Resultados
+resultados/*.png
+resultados/*.txt
+resultados/*.csv
+
+# Sistema
+.DS_Store
+Thumbs.db
