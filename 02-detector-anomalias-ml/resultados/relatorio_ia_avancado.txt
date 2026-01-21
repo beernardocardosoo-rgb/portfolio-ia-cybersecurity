@@ -1,0 +1,36 @@
+ 1. Os tipos de anomalias detectadas no relatório são:
+   - Tentativas excessivas de login (tentativas_login)
+   - Requisições excessivas HTTP (requisicoes_http)
+   - Transferência excessiva de bytes (bytes_transferidos)
+   - Tempo de resposta excedido (tempo_resposta_ms)
+
+2. As possíveis causas para essas anomalias podem ser:
+   - Ataques automatizados (botnets, scripts) com objetivo de forçar acesso ou overload do servidor (tentativas excessivas de login, requisições excessivas HTTP, transferência excessiva de bytes)
+   - Falha de sistema ou configuração inadequada que permite excessivos acessos ou atividades anormais (tempo de resposta excedido)
+   - Behavior Legitimo Incomum: pode ser uma aplicação cliente ou servidor com um alto tráfego ou requisições.
+
+3. Nível de risco de cada anomalia:
+   - Tentativas excessivas de login, Requisições excessivas HTTP e Transferência excessiva de bytes: Médio a Alto risco. Ao permitir acessos excessivos, o servidor está mais vulnerável a ataques DDoS ou tentativas de forçar acesso.
+   - Tempo de resposta excedido: Baixo a Médio risco. Essa anomalia pode indicar uma falha no sistema ou configuração inadequada, mas não necessariamente é um sinal de ataque.
+
+4. Indicadores de comprometimento (IoCs):
+   - IPs dos ataques: a partir do log dos ataques é possível identificar os IPs envolvidos nos ataques.
+   - User-Agents, cookies ou headers anormais: verificação de informações adicionais nos logs de requisição HTTP pode ajudar a identificar se o tráfego é legítimo ou não.
+
+5. Ações imediatas recomendadas:
+   - Bloquear os IPs suspeitos no firewall
+   - Reduzir o tempo de login permitido para evitar ataques brute force
+   - Limite a quantidade de requisições por cliente em determinado período
+   - Ajustar configuração do servidor para melhor gerenciar o tráfego e diminuir o tempo de resposta
+
+6. Regras de firewall sugeridas (iptables / ufw):
+   - Bloquear o acesso de determinados IPs suspeitos
+   - Limitar a quantidade de tentativas de login por IP/tempo
+   - Limitar a quantidade de requisições HTTP por IP/tempo
+   - Monitorar o tráfego em tempo real e bloquear qualquer comportamento anormal
+
+7. Sugestões de monitoramento contínuo:
+   - Implementar um sistema de log centralizado para facilitar a análise dos logs e identificação de anomalias
+   - Monitorar o tráfego de rede, requisições HTTP e tempo de resposta em tempo real
+   - Configurar alertas para notificar sobre tentativas excessivas de login, requisições excessivas HTTP e transferência excessiva de bytes.
+

@@ -160,6 +160,40 @@ plt.savefig('distribuicao_anomalias.png', dpi=300, bbox_inches='tight')
 print(f"📊 Distribuição salva em 'distribuicao_anomalias.png'")
 plt.show()
 
+# ============================================
+# 8. GERAR RELATÓRIO EXECUTIVO
+# ============================================
+with open('resultados/relatorio_anomalias.txt', 'w', encoding='utf-8') as f:
+    f.write("=" * 60 + "\n")
+    f.write("RELATÓRIO DE DETECÇÃO DE ANOMALIAS\n")
+    f.write("=" * 60 + "\n\n")
+    f.write(f"Total de registros analisados: {len(df)}\n")
+    f.write(f"Anomalias detectadas: {anomalias_detectadas}\n")
+    f.write(f"Taxa de anomalias: {(anomalias_detectadas/len(df))*100:.2f}%\n")
+    f.write(f"Acurácia do modelo: {acuracia:.2f}%\n\n")
+    f.write("Top 10 Anomalias Detectadas:\n")
+    f.write(anomalias.head(10).to_string())
+
+print("✓ Relatório salvo: resultados/relatorio_anomalias.txt")
+
+# ============================================
+# 9. ANÁLISE AVANÇADA COM IA
+# ============================================
+print("\n[9] Gerando análise avançada com IA (Mistral via Ollama)...")
+
+from ia_anomalias import analisar_anomalias_com_llm
+
+with open('resultados/relatorio_anomalias.txt', 'r', encoding='utf-8') as f:
+    texto_base = f.read()
+
+analise_ia = analisar_anomalias_com_llm(texto_base)
+
+with open('resultados/relatorio_ia_avancado.txt', 'w', encoding='utf-8') as f:
+    f.write(analise_ia)
+
+print("✓ Análise IA salva: resultados/relatorio_ia_avancado.txt")
+
+
 print("\n" + "=" * 60)
 print("✅ PROJETO CONCLUÍDO COM SUCESSO!")
 print("=" * 60)
