@@ -1,0 +1,8 @@
+ 1. Possíveis ataques: Ataques de força bruta contra a autenticação do sistema (login), possivelmente tentando comprometer contas com senhas fracas ou usuários comuns como "invalid". Há também evidências de escanear o servidor a partir de quatro IPs suspeitos.
+2. Indicadores de comprometimento (IoCs): Os IPs suspeitos: 203.0.113.45, 203.0.113.67, 198.51.100.23 e 198.51.100.45. O usuário comprometido: "invalid".
+3. Probabilidade dos ataques: Alta, devido ao grande número de falhas de login de um usuário específico e vários IPs diferentes.
+4. Riscos para o servidor: A exposição dos logs do SSH pode ser usada por invasores para detectar vulnerabilidades ou realizar ataques a eles. O uso de senhas fracas e comuns também representa um risco significativo.
+5. Ações imediatas recomendadas: Bloquear os IPs suspeitos, mudar a senha do usuário "invalid", implementar rate limiting e autenticação de dois fatores, desabilitar login de root via SSH e monitorar continuamente os logs.
+6. Regras de firewall sugeridas (iptables / ufw): Bloquear entrada e saída para os IPs suspeitos mencionados. Para iptables: `iptables -A INPUT -s 203.0.113.45 -j DROP`, `iptables -A OUTPUT -d 203.0.113.45 -j DROP`. Para UFW: `sudo ufw deny from 203.0.113.45`
+7. Sugestões adicionais de endurecimento (hardening): Além dos pontos mencionados acima, considerar aplicar patchs de segurança recentes, habilitar loggin do sistema, utilizar sistemas de gerenciamento de chaves SSH e implementar controles de acesso restritivo.
+

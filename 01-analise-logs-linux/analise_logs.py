@@ -262,3 +262,18 @@ print("  4. 02_top_ips_falhas.png - IPs suspeitos")
 print("  5. 03_top_usuarios_atacados.png - Usuários atacados")
 print("  6. 04_atividade_por_hora.png - Atividade temporal")
 print("\n" + "="*60)
+
+# 9. ANÁLISE AVANÇADA COM IA GENERATIVA (LLM LOCAL)
+print("\n[9] Gerando análise avançada com IA (Mistral via Ollama)...")
+
+from ia_logs import analisar_com_llm
+
+with open("resultados/relatorio_seguranca.txt", "r", encoding="utf-8") as f:
+    texto_base = f.read()
+
+analise_avancada = analisar_com_llm(texto_base)
+
+with open("resultados/relatorio_ia_avancado.txt", "w", encoding="utf-8") as f:
+    f.write(analise_avancada)
+
+print("✓ Arquivo salvo: resultados/relatorio_ia_avancado.txt")
