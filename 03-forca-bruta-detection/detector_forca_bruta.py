@@ -283,6 +283,29 @@ plt.tight_layout()
 plt.savefig('resultados/analise_ips.png', dpi=300, bbox_inches='tight')
 print("✅ Gráfico salvo em: resultados/analise_ips.png")
 
+# ========== ANÁLISE AVANÇADA COM IA ==========
+print("\n🤖 Gerando análise avançada com IA (Mistral via Ollama)...")
+
+from ia_brute_force import analisar_brute_force_com_llm
+
+# Ler o relatório gerado
+with open('resultados/relatorio.txt', 'r', encoding='utf-8') as f:
+    texto_base = f.read()
+
+# Gerar análise com IA
+analise_ia = analisar_brute_force_com_llm(texto_base)
+
+# Salvar análise IA
+with open('resultados/relatorio_ia_avancado.txt', 'w', encoding='utf-8') as f:
+    f.write("╔════════════════════════════════════════════════════════════════╗\n")
+    f.write("║         ANÁLISE AVANÇADA COM INTELIGÊNCIA ARTIFICIAL          ║\n")
+    f.write("║                    Mistral via Ollama                         ║\n")
+    f.write("╚════════════════════════════════════════════════════════════════╝\n\n")
+    f.write(analise_ia)
+
+print("✅ Análise IA salva em: resultados/relatorio_ia_avancado.txt")
+
+
 # ========== RESUMO FINAL ==========
 print("\n" + "=" * 70)
 print("✅ ANÁLISE CONCLUÍDA COM SUCESSO!")
