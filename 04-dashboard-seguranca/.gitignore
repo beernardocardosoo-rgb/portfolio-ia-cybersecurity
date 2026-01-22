@@ -41,12 +41,9 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Dados sensíveis
+# Dados sensíveis (modelos e datasets)
 *.csv
 *.pkl
-dados/logins_gerados.csv
-dados/modelo_deteccao.pkl
-dados/scaler.pkl
 
 # Logs
 *.log
