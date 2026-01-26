@@ -1,0 +1,71 @@
+
+╔════════════════════════════════════════════════════════════════╗
+║         RELATÓRIO DE DETECÇÃO DE FORÇA BRUTA                  ║
+║                   Machine Learning Analysis                   ║
+╚════════════════════════════════════════════════════════════════╝
+
+DATA DO RELATÓRIO: 2026-01-21 14:54:18
+
+═══════════════════════════════════════════════════════════════════
+
+📊 ESTATÍSTICAS GERAIS:
+
+   • Total de eventos analisados: 34,644
+   • Período: 2026-01-14 14:53:59.329182 até 2026-01-21 14:51:59.329182
+   • IPs únicos: 107
+   • Usuários únicos: 11
+   • Localizações: 8
+
+═══════════════════════════════════════════════════════════════════
+
+🚨 DETECÇÃO DE ATAQUES:
+
+   • Eventos normais: 32911 (95.00%)
+   • Eventos anômalos: 1733 (5.00%)
+   • Taxa de detecção: 5.00%
+
+═══════════════════════════════════════════════════════════════════
+
+🔍 TOP 10 IPS MAIS SUSPEITOS:
+
+
+   1. IP: 192.168.1.62 | Tentativas: 50 | 🟠 ALTO | Localização: Portugal
+   2. IP: 192.168.1.32 | Tentativas: 48 | 🟠 ALTO | Localização: EUA
+   3. IP: 192.168.1.39 | Tentativas: 40 | 🟠 ALTO | Localização: Portugal
+   4. IP: 192.168.1.10 | Tentativas: 38 | 🟠 ALTO | Localização: Portugal
+   5. IP: 192.168.1.17 | Tentativas: 36 | 🟠 ALTO | Localização: Brasil
+   6. IP: 192.168.1.86 | Tentativas: 34 | 🟠 ALTO | Localização: Portugal
+   7. IP: 192.168.1.7 | Tentativas: 32 | 🟠 ALTO | Localização: Portugal
+   8. IP: 192.168.1.28 | Tentativas: 31 | 🟠 ALTO | Localização: EUA
+   9. IP: 192.168.1.67 | Tentativas: 30 | 🟠 ALTO | Localização: Brasil
+   10. IP: 192.168.1.37 | Tentativas: 28 | 🟠 ALTO | Localização: Portugal
+
+═══════════════════════════════════════════════════════════════════
+
+✅ EVENTOS LEGÍTIMOS:
+
+   • Taxa de sucesso: 23.27%
+   • Origem confiável: 23.70%
+
+═══════════════════════════════════════════════════════════════════
+
+🤖 MODELO UTILIZADO:
+
+   • Algoritmo: Isolation Forest
+   • Contaminação esperada: 5%
+   • Estimadores: 100
+   • Seed: 42 (reprodutível)
+
+═══════════════════════════════════════════════════════════════════
+
+💡 RECOMENDAÇÕES:
+
+   1. ⛔ Bloquear imediatamente os IPs críticos
+   2. 🔐 Implementar rate limiting (máx 5 tentativas/minuto)
+   3. 📧 Notificar usuários sobre tentativas de acesso
+   4. 🔍 Investigar padrões de ataque lento (mais sofisticados)
+   5. 📊 Monitorar continuamente com este modelo
+
+═══════════════════════════════════════════════════════════════════
+
+Relatório gerado automaticamente pelo sistema de detecção de força bruta.
