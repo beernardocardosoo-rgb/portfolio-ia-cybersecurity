@@ -16,7 +16,7 @@
 - [Sobre Mim](#-sobre-mim)
 - [Áreas de Expertise](#-áreas-de-expertise)
 - [Tecnologias & Ferramentas](#-tecnologias--ferramentas)
-- [Projetos](#-projetos)
+- [Projetos](#-projetos-do-portfólio--ia--cybersecurity)
 - [GitHub Stats](#-github-stats)
 - [Objetivo Profissional](#-objetivo-profissional)
 - [Atualmente Aprendendo](#-atualmente-aprendendo)
@@ -81,7 +81,8 @@ div>
 
 ---
 
-# ⭐ **Projetos do Portfólio – IA & CyberSecurity**
+# ⭐ Projetos do Portfólio – IA & CyberSecurity
+
 
 <div align="center">
 
