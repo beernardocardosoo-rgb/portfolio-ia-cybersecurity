@@ -95,30 +95,36 @@ Análise automatizada de logs do sistema, extração de eventos relevantes, visu
 ---
 
 ### 🟢 **02 – Detecção de Anomalias com IA**  
-Modelo de Machine Learning (Isolation Forest) para identificar padrões incomuns em datasets simulados e reais, com foco em comportamento anômalo.  
-**Tecnologias:** Python, Scikit-learn, Pandas, Matplotlib  
-📂 [Ver projeto](./02-deteccao-anomalias)
+Modelo de Machine Learning (Isolation Forest / técnicas similares) para identificar padrões incomuns em logs e métricas de sistemas, com foco em comportamento anômalo em ambiente de segurança.  
+**Tecnologias:** Python, Scikit-learn, Pandas, Matplotlib, Seaborn  
+📂 [Ver projeto](./02-detector-anomalias-ml)
 
 ---
 
 ### 🟢 **03 – Força Bruta Detection (IA)**  
-Sistema completo para detecção de ataques de força bruta, incluindo geração de dataset, pré-processamento, treinamento de modelo, alertas e relatórios.  
-**Tecnologias:** Python, Scikit-learn, Pandas, Joblib  
+Sistema completo para detecção de ataques de força bruta, incluindo geração de dataset de tentativas de login, pré-processamento, treinamento de modelo, alerta de IPs suspeitos e relatórios de análise.  
+**Tecnologias:** Python, Scikit-learn, Pandas, Joblib, Matplotlib, Seaborn  
 📂 [Ver projeto](./03-forca-bruta-detection)
 
 ---
 
 ### 🟢 **04 – Dashboard de Segurança** ✨ **NOVO**  
-Dashboard web interativo para monitoramento de ameaças em tempo real, com gráficos dinâmicos, métricas de segurança e alertas visuais de ataques detectados.  
+Dashboard web interativo para monitoramento de ameaças em tempo quase real, com gráficos dinâmicos, métricas de segurança e visualização consolidada de eventos suspeitos.  
 **Tecnologias:** Python, Streamlit, Plotly, Pandas, Machine Learning  
 📂 [Ver projeto](./04-dashboard-seguranca)  
-🌐 [Demo ao vivo](http://localhost:8501) *(rodar localmente)*
+🌐 *Demo local:* `streamlit run app.py`
 
 ---
 
+### 🟢 **05 – Detector de Phishing com IA** ✨ **NOVO**  
+Modelo de Machine Learning para detecção de URLs de phishing usando apenas informações da própria URL (comprimento, estrutura, subdomínios, palavras suspeitas, etc.), com um detector interativo para testar links em tempo real.  
+**Tecnologias:** Python, Scikit-learn, Pandas, Regex, Joblib  
+📂 [Ver projeto](./05-phishing-detection-ai)
 
+---
 
 </div>
+
 
 ---
 
