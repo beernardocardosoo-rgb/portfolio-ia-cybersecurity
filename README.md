@@ -109,7 +109,7 @@ Sistema completo para detecção de ataques de força bruta, incluindo geração
 
 ---
 
-### 🟢 **04 – Dashboard de Segurança** ✨ **NOVO**  
+### 🟢 **04 – Dashboard de Segurança** 
 Dashboard web interativo para monitoramento de ameaças em tempo quase real, com gráficos dinâmicos, métricas de segurança e visualização consolidada de eventos suspeitos.  
 **Tecnologias:** Python, Streamlit, Plotly, Pandas, Machine Learning  
 📂 [Ver projeto](./04-dashboard-seguranca)  
@@ -117,7 +117,7 @@ Dashboard web interativo para monitoramento de ameaças em tempo quase real, com
 
 ---
 
-### 🟢 **05 – Detector de Phishing com IA** ✨ **NOVO**  
+### 🟢 **05 – Detector de Phishing com IA** 
 Modelo de Machine Learning para detecção de URLs de phishing usando apenas informações da própria URL (comprimento, estrutura, subdomínios, palavras suspeitas, etc.), com um detector interativo para testar links em tempo real.  
 **Tecnologias:** Python, Scikit-learn, Pandas, Regex, Joblib  
 📂 [Ver projeto](./05-phishing-detection-ai)
