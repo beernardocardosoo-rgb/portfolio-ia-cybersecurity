@@ -124,6 +124,12 @@ Modelo de Machine Learning para detecção de URLs de phishing usando apenas inf
 
 ---
 
+### 🟢 **06 – Detecção e Priorização de Ataques DDoS**  
+Sistema completo de detecção de ataques DDoS usando Machine Learning, com priorização inteligente de alertas para SOC. O modelo classifica fluxos de rede e converte as previsões em uma fila de alertas organizada por criticidade (ALTA/MÉDIA/BAIXA), reduzindo ruído e focando o analista nos incidentes mais críticos.  
+**Tecnologias:** Python, Scikit-learn, Pandas, Streamlit, Random Forest  
+📂 [Ver projeto](./06-alert-prioritization)  
+🌐 *Demo local:* `streamlit run dashboard/app.py`
+
 </div>
 
 
