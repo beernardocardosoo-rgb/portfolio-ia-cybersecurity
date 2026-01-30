@@ -136,15 +136,16 @@ Sistema completo de detecção de ataques DDoS usando Machine Learning, com prio
 ---
 
 # 📊 GitHub Stats
-
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beernardocardosoo-rgb&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=beernardocardosoo-rgb&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=beernardocardosoo-rgb&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=beernardocardosoo-rgb&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
 ---
+
 
 # 🎯 Objetivo Profissional
 
